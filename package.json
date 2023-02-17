@@ -12,32 +12,26 @@
     "test:coverage": "vitest --coverage"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.2",
-    "@testing-library/user-event": "^14.4.3",
-    "ghspa": "^1.0.0",
-    "rambda": "^7.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.7.0",
-    "sanctuary": "^3.1.0",
-    "util": "^0.12.5"
+    "@testing-library/user-event": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "util": "latest"
   },
   "devDependencies": {
-    "@testing-library/react": "^13.4.0",
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.9",
-    "@types/sanctuary": "^3.1.0",
-    "@vitejs/plugin-react": "^3.0.1",
-    "gh-pages": "^4.0.0",
-    "jsdom": "^20.0.3",
-    "vite": "^4.0.4",
-    "vite-plugin-compression": "^0.5.1",
-    "vitest": "^0.26.3"
+    "ghspa": "latest",
+    "@testing-library/react": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "gh-pages": "latest",
+    "jsdom": "latest",
+    "vite": "latest",
+    "vite-plugin-compression": "latest",
+    "vitest": "latest"
   },
   "engineStrict": true,
   "engines": {
-    "node": ">=19.0.0"
+    "node": "latest"
   }
 }
