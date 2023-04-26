@@ -12,7 +12,9 @@
     "test:coverage": "vitest --coverage"
   },
   "dependencies": {
+    "@blueprintjs/core": "latest",
     "@testing-library/user-event": "latest",
+    "jotai": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "ghspa": "latest",
     "@testing-library/react": "latest",
+    "dotenv": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
@@ -29,9 +32,5 @@
     "vite": "latest",
     "vite-plugin-compression": "latest",
     "vitest": "latest"
-  },
-  "engineStrict": true,
-  "engines": {
-    "node": "latest"
   }
 }

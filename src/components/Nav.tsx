@@ -1,23 +1,34 @@
-import "../css/Nav.css";
+import "../css/Nav.css"
 
-import { Link } from "react-router-dom";
+import { Button, Navbar } from "@blueprintjs/core"
+import { Link }           from "react-router-dom"
+
+import Timer   from "./Timer"
+import UserBox from "./UserBox"
 
 const Nav = () => {
   return (
-    <nav>
-      <Link to="/">
-        <h1>Logo</h1>
-      </Link>
-      <ul>
-        <li>
-          <Link to="/home">Home</Link>
-        </li>
-        <li>
-          <Link to="/profile">Profile</Link>
-        </li>
-      </ul>
-    </nav>
-  );
-};
+    <Navbar class="nav">
+      <Navbar.Group>
+        <Link to="/odin-waldo/">
+          <Navbar.Heading>Logo</Navbar.Heading>
+        </Link>
+      </Navbar.Group>
+      <Navbar.Group>
+        <Link to="/odin-waldo/app">
+          <Button text="Play" large className="bp4-minimal"/>
+        </Link>
+        <Link to="/odin-waldo/profile">
+          <Button text="Profile" large className="bp4-minimal"/>
+        </Link>
+        <Navbar.Divider/>
+      </Navbar.Group>
+      <Navbar.Group>
+        <UserBox/>
+        <Timer/>
+      </Navbar.Group>
+    </Navbar>
+  )
+}
 
-export default Nav;
+export default Nav
