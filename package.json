@@ -1,37 +1,38 @@
 {
-  "name":            "lippeice-vite-react-routers",
-  "private":         false,
-  "version":         "1.0.0",
-  "type":            "module",
-  "scripts":         {
-    "dev":           "vite",
-    "build":         "vite build",
-    "preview":       "vite build && vite preview",
-    "test":          "vitest",
-    "test:watch":    "vitest --watch",
+  "name": "lippeice-vite-react-routers",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
     "test:coverage": "vitest --coverage"
   },
-  "dependencies":    {
-    "@blueprintjs/core":           "latest",
+  "dependencies": {
+    "@blueprintjs/core": "latest",
     "@testing-library/user-event": "latest",
-    "jotai":                       "latest",
-    "react":                       "latest",
-    "react-dom":                   "latest",
-    "react-router-dom":            "latest",
-    "util":                        "latest"
+    "jotai": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "util": "latest"
   },
   "devDependencies": {
-    "@testing-library/react":      "latest",
-    "@types/react":                "latest",
-    "@types/react-dom":            "latest",
-    "@vitejs/plugin-react":        "latest",
-    "dotenv":                      "latest",
-    "gh-pages":                    "latest",
-    "ghspa":                       "latest",
-    "jsdom":                       "latest",
-    "vite":                        "latest",
-    "vite-plugin-compression":     "latest",
-    "vite-plugin-image-optimizer": "latest",
-    "vitest":                      "latest"
+    "@testing-library/react": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "dotenv": "latest",
+    "gh-pages": "latest",
+    "ghspa": "latest",
+    "jsdom": "latest",
+    "sass": "latest",
+    "vite": "latest",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-image-optimizer": "^1.1.4",
+    "vitest": "latest"
   }
 }
